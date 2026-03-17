@@ -21,15 +21,21 @@ async function getSongs(){
     return songs
 }
 
-const playMusic = (track)=>{
-    // let audio = new Audio("/Songs/"+track)
-    currentsong.src = "/Songs/"+track
-    currentsong.play()
-    play.src="pause.svg"
-    document.querySelector(".songinfo").innerHTML=track
-    document.querySelector(".songtime").innerHTML="00:00 / 00:00"
+// const playMusic = (track)=>{
+//     // let audio = new Audio("/Songs/"+track)
+//     currentsong.src = "/Songs/"+track
+//     currentsong.play()
+//     play.src="pause.svg"
+//     document.querySelector(".songinfo").innerHTML=track
+//     document.querySelector(".songtime").innerHTML="00:00 / 00:00"
 
-}
+// }
+const playMusic = (track) => {
+    currentsong.src = "Songs/" + track;
+    currentsong.play();
+
+    document.querySelector(".songinfo").innerHTML = track;
+};
 
 
 async function main(){
@@ -44,7 +50,7 @@ async function main(){
     for (const song of songs) {
         songul.innerHTML=songul.innerHTML + `<li><img class="invert" src="music.svg" alt="">
                             <div class="info">
-                                <div>${song.replaceAll("%20"," ")} </div>
+                                <div>${song.replaceAll("%20"," ").replace(".mp3","")}</div>
                                 <div>Amar</div>
                             </div>
                             <div class="playnow">
