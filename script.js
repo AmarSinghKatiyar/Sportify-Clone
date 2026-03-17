@@ -23,7 +23,7 @@ async function getSongs(){
 
 const playMusic = (track)=>{
     // let audio = new Audio("/Songs/"+track)
-    currentsong.src = "Songs/"+track
+    currentsong.src = "/Songs/"+track
     currentsong.play()
     play.src="pause.svg"
     document.querySelector(".songinfo").innerHTML=track
