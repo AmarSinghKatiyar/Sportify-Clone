@@ -21,7 +21,7 @@ This project mimics the basic UI and functionality of Spotify, allowing users to
 
 - **HTML5** – Structure  
 - **CSS3** – Styling & layout  
-- **JavaScript (Vanilla JS)** – Functionality  
+- **JavaScript** – Functionality  
 
 ---
 
@@ -58,7 +58,7 @@ Sportify-Clone/
 ## 🧪 How to Run Locally
 
 1. Clone the repository:
-   git clone https://github.com/your-username/Sportify-Clone.git
+   git clone https://github.com/AmarSinghKatiyar/Sportify-Clone.git
 
 2. Open the project folder
 3. Run using a local server (recommended):
@@ -88,12 +88,6 @@ Sportify-Clone/
 
 ---
 
-## 📸 Screenshots
-
-_Add screenshots of your UI here_
-
----
-
 ## 🙌 Acknowledgements
 
 - Inspired by **Spotify Web Player UI**  
@@ -104,7 +98,7 @@ _Add screenshots of your UI here_
 ## 📌 Author
 
 **Amar Singh**  
-- GitHub: https://github.com/your-username  
+- GitHub: https://github.com/AmarSinghKatiyar  
 
 ---
 
