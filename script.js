@@ -35,7 +35,8 @@ const playMusic = (track)=>{
 async function main(){
 
     //get the list of all the songs
-    let songs = await getSongs()
+    //let songs = await getSongs()
+    let songs = ["Aditya Rikhari FAAm.mp3","Aditya Rikhari FAASLE.mp3","Be Intehaan (Race 2).mp3","Dance Like Ft. B Praak.mp3","Dil Ka Ye Kya Raj Hai.mp3","Haseen.mp3","Kahani Suno.mp3","Mat Aazma Re.mp3","Piya More.mp3","Sahiba.mp3","Tu Hai Kahan.mp3"];
 
     //show all the sonng in the playist
     let songul = document.querySelector(".songlist").getElementsByTagName("ul")[0]
